@@ -1,17 +1,16 @@
 import './App.css';
 import Layout from './layout/Layout';
 import MainContainer from './maincontainer/MainContainer';
-import { Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Route path='/'>
-          <MainContainer />
-        </Route>
+        <Routes>
+          <Route path='/' element={<MainContainer />} />
+        </Routes>
       </Layout>
-
     </div>
   );
 }
