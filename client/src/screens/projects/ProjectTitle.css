@@ -1,0 +1,27 @@
+.project-title-page {
+  background-color: #afd8f2a8;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+
+.project-title-banner {
+  background-color: #1F3541;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.project-title-header {
+  color: #E8CBB1;
+  font-size: 32px;
+  text-align: center;
+}
+
+.project-title-scroll-text {
+  background-color: #1f3541aa;
+  color: #E8CBB1;
+  font-size: 12px;
+  bottom: 0;
+  text-align: center;
+}
