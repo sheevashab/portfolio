@@ -1,0 +1,28 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.about-background-image {
+  background: no-repeat;
+  background-image: url(https://res.cloudinary.com/dyyjvyqtn/image/upload/v1636825001/MachuPicchu_Travel_ttcktn.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.about-container {
+  background-color: #1f3541aa;
+  margin: 20px;
+}
+
+.about-header {
+  color: #E8CBB1;
+  text-align: center;
+}
+
+.about-text {
+  color: #EDF2F3;
+  text-align: center;
+  width: 60vw;
+}
