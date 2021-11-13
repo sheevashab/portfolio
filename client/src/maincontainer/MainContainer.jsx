@@ -9,7 +9,6 @@ import Contact from '../screens/contact/Contact';
 export default function MainContainer() {
   return (
     <div className='main-container'>
-      Main Container
       <Landing />
       <About />
       <Project1 />
