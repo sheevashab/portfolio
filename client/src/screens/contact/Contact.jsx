@@ -1,5 +1,4 @@
 import './Contact.css';
-import { HashLink } from 'react-router-hash-link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
@@ -13,9 +12,9 @@ export default function Contact() {
       </div>
       <div className='contact-links'>
         <div><LinkedInIcon /></div>
-        <a href='https://www.linkedin.com/in/sheeva-shabahang-2255a562/' target='_blank'>linkedin</a>
+        <a href='https://www.linkedin.com/in/sheeva-shabahang-2255a562/' target='_blank' rel="noreferrer">linkedin</a>
         <div><GitHubIcon /></div>
-        <a href='https://github.com/sheevashab/' target='_blank'>github</a>
+        <a href='https://github.com/sheevashab/' target='_blank' rel="noreferrer">github</a>
         <div><EmailRoundedIcon /></div>
         <a href='mailto:sheeva.shabahang@gmail.com'>email</a>
         <div><AttachFileRoundedIcon /></div>

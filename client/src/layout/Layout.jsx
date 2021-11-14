@@ -1,7 +1,8 @@
 import Navbar from '../components/Navbar'
 import './Layout.css'
 
-export default function Layout({ children }) {
+export default function Layout(props) {
+  const { children } = props
   return (
     <div className='layout'>
       <Navbar />
