@@ -1,7 +1,18 @@
 nav {
+  align-items: center;
   background-color: #1F3541;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .navbar-hash-link {
   color: #AFD8F2;
+  display: flex;
+}
+
+.nav-link{
+  background-color: #1F3541;
 }

@@ -25,9 +25,7 @@ export default function Navbar() {
           <div className='navbar-hash-link'>
             <NavHashLink smooth to='#landing'>
               SCROLL HOME
-              <div>
-                <KeyboardArrowUpRoundedIcon />
-              </div>
+              <KeyboardArrowUpRoundedIcon />
             </NavHashLink>
           </div>
 
@@ -36,7 +34,7 @@ export default function Navbar() {
             aria-controls='nav-button'
             aria-haspopup='true'
             aria-expanded={open ? 'true' : undefined}
-            sx={{ p: 0, m: 0, color: '#AFD8F2' }}
+            sx={{ color: '#AFD8F2' }}
             onClick={handleClick}
           >
             {toggle === null ? (
