@@ -1,11 +1,11 @@
 import './ProjectTitle.css'
 
-export default function Project4Title() {
+export default function Project1Title() {
   return (
-    <section id='project-four-title' className='project-title-page'>
+    <section id='project-one-title' className='project-title-page'>
       <div className='project-title-banner'>
         <div className='project-title-header'>
-          FIND THAT FOOTY [PLAYER]!
+          DESIGN DELIGHTS
         </div>
       </div>
       <div className='project-title-scroll-text'>

@@ -5,7 +5,7 @@ export default function Project3Title() {
     <section id='project-three-title' className='project-title-page'>
       <div className='project-title-banner'>
         <div className='project-title-header'>
-          DESIGN DELIGHTS
+          FIND THAT FOOTY [PLAYER]!
         </div>
       </div>
       <div className='project-title-scroll-text'>

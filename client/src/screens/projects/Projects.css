@@ -1,4 +1,4 @@
-.project-one-page {
+.project-page {
   background-color: #1F3541;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,8 @@
   justify-content: center;
 }
 
-/* .project-container {
+.project-container {
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
@@ -14,19 +15,25 @@
 .project-screenshot {
   border-radius: 25px;
   border: white 2px;
-} */
+  width: 200px;
+}
 
 .project-description-header, .project-resources-header{
   color: #E8CBB1;
   font-size: 24px;
+  margin-top: 10px;
 }
 
 .project-description-text, .project-resources-text {
   color: #EDF2F3;
   font-size: 18px;
+  margin: 20px;
 }
 
 .project-scroll-text {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
   color: #E8CBB1;
   font-size: 12px;
   bottom: 0;

@@ -5,7 +5,7 @@ export default function Project2Title() {
     <section id='project-two-title' className='project-title-page'>
       <div className='project-title-banner'>
         <div className='project-title-header'>
-          SEVEN WANDERS
+          HOGWARTS HOPEFULS
         </div>
       </div>
       <div className='project-title-scroll-text'>
