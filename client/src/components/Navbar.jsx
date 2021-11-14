@@ -49,6 +49,7 @@ export default function Navbar() {
             open={open}
             onClose={handleClose}
             transitionDuration={1000}
+            sx={{ color: '#AFD8F2' }}
           >
             <NavHashLink className='nav-link' smooth to='#about'>
               <MenuItem key='nav-link-about' onClick={handleClose}>

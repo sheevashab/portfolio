@@ -1,9 +1,10 @@
 .contact-page {
+  align-items: center;
   background-color: #1F3541;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
+  justify-content: space-evenly;
   position: relative;
 }
 
@@ -15,5 +16,9 @@
 
 .contact-links {
   color: #EDF2F3;
+  display: flex;
+  flex-direction: column;
   font-size: 18px;
+  height: 60vh;
+  justify-content: space-evenly;
 }

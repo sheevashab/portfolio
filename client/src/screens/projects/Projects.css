@@ -1,7 +1,9 @@
 .project-page {
+  align-items: center;
   background-color: #1F3541;
   display: flex;
   flex-direction: column;
+  height: 100vh;
   position: relative;
   justify-content: center;
 }
@@ -9,7 +11,7 @@
 .project-container {
   align-items: center;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .project-screenshot {
@@ -31,11 +33,9 @@
 }
 
 .project-scroll-text {
-  display: flex;
-  flex-direction: column;
-  justify-self: flex-end;
+  bottom: 0;
   color: #E8CBB1;
   font-size: 12px;
-  bottom: 0;
+  position: absolute;
   text-align: center;
 }

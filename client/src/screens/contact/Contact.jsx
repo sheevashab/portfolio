@@ -11,13 +11,13 @@ export default function Contact() {
         CONTACT
       </div>
       <div className='contact-links'>
-        <div><LinkedInIcon /></div>
+        <div><LinkedInIcon fontSize="large" /></div>
         <a href='https://www.linkedin.com/in/sheeva-shabahang-2255a562/' target='_blank' rel="noreferrer">linkedin</a>
-        <div><GitHubIcon /></div>
+        <div><GitHubIcon fontSize="large" /></div>
         <a href='https://github.com/sheevashab/' target='_blank' rel="noreferrer">github</a>
-        <div><EmailRoundedIcon /></div>
+        <div><EmailRoundedIcon fontSize="large" /></div>
         <a href='mailto:sheeva.shabahang@gmail.com'>email</a>
-        <div><AttachFileRoundedIcon /></div>
+        <div><AttachFileRoundedIcon fontSize="large" /></div>
         <div>resume</div>
       </div>
     </section>

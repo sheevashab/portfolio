@@ -6,12 +6,14 @@
   justify-content: center;
 }
 
+
 .about-background-image {
   background: no-repeat;
   background-image: url(https://res.cloudinary.com/dyyjvyqtn/image/upload/v1636829196/MachuPicchu-Travel_y8u6k3.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
 }
 
@@ -25,25 +27,25 @@
 
 .about-header {
   color: #E8CBB1;
-  font-size: 32px;
+  font-size: 28px;
   text-align: center;
 }
 
 .about-text {
   color: #EDF2F3;
   font-size: 18px;
-  line-height: 1.5;
-  margin: 20px;
-  text-align: justify;
+  line-height: 1.4;
+  margin: 10px;
+  text-align: center;
   text-justify: auto;
 }
 
 .about-scroll-text {
-    background-color: #1f3541aa;
-    color: #E8CBB1;
-    font-size: 12px;
-    bottom: 0;
-    text-align: center;
+  bottom: 0;
+  color: #E8CBB1;
+  font-size: 12px;
+  position: absolute;
+  text-align: center;
 }
 
 @media only screen and (min-width: 750px) {
