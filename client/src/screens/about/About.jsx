@@ -13,7 +13,7 @@ export default function About() {
           </div>
         </div>
         <div className='about-scroll-text'>
-          KEEP CALM AND SCROLL ON
+          | KEEP CALM AND SCROLL ON |
         </div>
       </div>
     </section>

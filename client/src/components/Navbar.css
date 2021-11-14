@@ -9,8 +9,9 @@ nav {
 }
 
 .navbar-hash-link {
-  color: #AFD8F2;
+  color: #5289B5;
   display: flex;
+  font-size: 16px;
 }
 /* 
 .nav-link{

@@ -24,8 +24,8 @@ export default function Navbar() {
         <nav>
           <div className='navbar-hash-link'>
             <NavHashLink smooth to='#landing'>
+              <KeyboardArrowUpRoundedIcon sx={{ color: '#AFD8F2' }} />
               SCROLL HOME
-              <KeyboardArrowUpRoundedIcon />
             </NavHashLink>
           </div>
 

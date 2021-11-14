@@ -12,7 +12,7 @@ export default function Landing() {
         Full-Time Employment
       </div>
       <div className='landing-scroll-text'>
-        KEEP CALM AND SCROLL ON
+        | KEEP CALM AND SCROLL ON |
       </div>
     </section>
   )

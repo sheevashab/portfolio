@@ -11,25 +11,25 @@
 .project-container {
   align-items: center;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
 }
 
 .project-screenshot {
-  border-radius: 25px;
-  border: white 2px;
+  border-radius: 30px;
+  border: #EDF2F3 solid 4px;
   width: 200px;
 }
 
 .project-description-header, .project-resources-header{
   color: #E8CBB1;
-  font-size: 24px;
-  margin-top: 10px;
+  font-size: 18px;
+  margin-top: 15px;
 }
 
 .project-description-text, .project-resources-text {
   color: #EDF2F3;
-  font-size: 18px;
-  margin: 20px;
+  font-size: 14px;
+  margin: 10px 20px;
 }
 
 .project-scroll-text {

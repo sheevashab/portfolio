@@ -13,7 +13,7 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   height: 100vh;
 }
 
@@ -27,7 +27,9 @@
 
 .about-header {
   color: #E8CBB1;
-  font-size: 28px;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
   text-align: center;
 }
 
