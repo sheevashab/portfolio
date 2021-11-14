@@ -10,7 +10,7 @@ import Popper from '@mui/material/Popper';
 import MenuItem from '@mui/material/MenuItem';
 import MenuList from '@mui/material/MenuList';
 import Stack from '@mui/material/Stack';
-// import HorizontalRuleSharpIcon from '@mui/icons-material/HorizontalRuleSharp';
+import HorizontalRuleSharpIcon from '@mui/icons-material/HorizontalRuleSharp';
 
 export default function Navbar({ about, projects, contact }) {
   const [open, setOpen] = useState(false);
@@ -53,7 +53,7 @@ export default function Navbar({ about, projects, contact }) {
     </NavHashLink>
   )
   var projects = (
-    <NavHashLink className='navbar-link' smooth to='#project-one'>
+    <NavHashLink className='navbar-link' smooth to='#project-one-title'>
       Portfolio
     </NavHashLink>
   )
@@ -74,7 +74,7 @@ export default function Navbar({ about, projects, contact }) {
             aria-haspopup="true"
             onClick={handleToggle}
           >
-            MENU
+            <HorizontalRuleSharpIcon />
           </Button>
           <Popper
             open={open}

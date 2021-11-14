@@ -3,17 +3,27 @@
 .App {
   text-align: center;
 }
- html {
-   height: 100%;
- }
 
- body {
-   height: 100%;
-   font-family: 'Roboto Mono', monospace;;
- }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
- section {
-  height: 100vh;
+a:visited {
+  color: inherit;
+}
+
+body {
+  height: 100%;
+  font-family: 'Roboto Mono', monospace;;
+}
+
+html {
+  height: 100%;
+}
+
+section {
+ height: 100vh;
 }
 
  *,
