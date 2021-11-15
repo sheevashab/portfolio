@@ -38,3 +38,27 @@
   bottom: 0;
   text-align: center;
 }
+
+@media only screen and (min-width: 750px) {
+  .contact-header {
+    font-size: 48px;
+  }
+
+  .contact-scroll-text {
+    font-size: 14px;
+  }
+  }
+
+  @media only screen and (min-width: 1020px) {
+    .contact-links {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .contact-link {
+      padding-right:50px;
+    }
+    .contact-scroll-text {
+      font-size: 16px;
+    }
+    }

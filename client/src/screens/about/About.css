@@ -27,7 +27,7 @@
 
 .about-header {
   color: #E8CBB1;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 400;
   margin: 20px 0px;
   text-align: center;
@@ -35,7 +35,7 @@
 
 .about-text {
   color: #EDF2F3;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
   margin: 0px 20px 20px 20px;
   text-align: center;
@@ -55,14 +55,34 @@
     margin: 40px;
   }
   .about-header {
-    font-size: 48px;
+    font-size: 32px;
   }
 
   .about-text {
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 1.6;
   }
 
   .about-scroll-text {
     font-size: 14px;
   }
+  }
+
+  @media only screen and (min-width: 1020px) {
+    .about-container {
+      margin: 100px;
+    }
+    .about-header {
+      font-size: 38px;
+    }
+  
+    .about-text {
+      font-size: 22px;
+      line-height: 1.75;
+    }
+
+    .about-scroll-text {
+      font-size: 16px;
+    }
+
   }

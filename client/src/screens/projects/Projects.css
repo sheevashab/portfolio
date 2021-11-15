@@ -12,6 +12,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .project-screenshot {
@@ -22,7 +23,7 @@
 
 .project-screenshot:hover {
   border-radius: 30px;
-  border: #EDF2F3 solid 4px;
+  border: #EDF2F3 solid 8px;
   width: 200px;
 }
 
@@ -44,4 +45,72 @@
   font-size: 12px;
   position: absolute;
   text-align: center;
+}
+
+@media only screen and (min-width: 750px) {
+  .project-page {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .project-container {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+.project-description-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+}
+
+  .project-screenshot-container {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+  }
+
+  .project-techstack-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+  }
+  
+  .project-description-header, .project-resources-header{
+    width: 23vw;
+  }
+  
+  .project-description-text, .project-resources-text {
+    line-height: 1.5;
+    margin: 10px 20px;
+    width: 23vw;
+  }
+  
+  .project-scroll-text {
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (min-width: 1020px) {
+  .project-description-header, .project-resources-header{
+    font-size: 22px;
+    margin-bottom: 18px;
+    margin-top: 0px;
+  }
+  
+  .project-description-text, .project-resources-text {
+    font-size: 16px;
+    line-height: 1.75;
+    width: 23vw;
+  }
+  
+  .project-scroll-text {
+    font-size: 16px;
+  }
 }

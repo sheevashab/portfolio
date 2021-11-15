@@ -5,22 +5,28 @@ export default function Project2() {
   return (
     <section id='project-two' className='project-page'>
       <div className='project-container'>
-        <div className='project-description-header'>
-          | DESCRIPTION |
+        <div className='project-description-container'>
+          <div className='project-description-header'>
+            | DESCRIPTION |
+          </div>
+          <div className='project-description-text'>
+            The assignment was to create a full-stack, full-CRUD RESTful app. Hogwarts Hopefuls employs user authentication to allow prospective 'students' to create a magical avatar.
+          </div>
         </div>
-        <div className='project-description-text'>
-          The assignment was to create a full-stack, full-CRUD RESTful app. Hogwarts Hopefuls employs user authentication to allow prospective 'students' to create a magical avatar.
+        <div className='project-screenshot-container'>
+          <img src={HogwartsHopefuls}
+            className='project-screenshot'
+            alt='landing page for Hogwarts Hopefuls app'
+            onClick={() => window.open('https://boring-hopper-18fd57.netlify.app/home', '_blank')}
+          />
         </div>
-        <img src={HogwartsHopefuls}
-          className='project-screenshot'
-          alt='landing page for Hogwarts Hopefuls app'
-          onClick={() => window.open('https://boring-hopper-18fd57.netlify.app/home', '_blank')}
-        />
-        <div className='project-resources-header'>
-          | TECH STACK |
-        </div>
-        <div className='project-resources-text'>
-          React, React Router Dom, Ruby on  Rails, Axios, CORS, JWT, bcrypt, Heroku, Netlify, CSS
+        <div className='project-techstack-container'>
+          <div className='project-resources-header'>
+            | TECH STACK |
+          </div>
+          <div className='project-resources-text'>
+            React, React Router Dom, Ruby on  Rails, Axios, CORS, JWT, bcrypt, Heroku, Netlify, CSS
+          </div>
         </div>
       </div>
       <div className='project-scroll-text'>
