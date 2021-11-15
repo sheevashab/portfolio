@@ -3,7 +3,7 @@ import SevenWanders from '../../assets/sevenwanders.png';
 
 export default function Project1() {
   return (
-    <section id='project' className='project-page'>
+    <section id='project-one' className='project-page'>
       <div className='project-container'>
         <div className='project-description-header'>
           | DESCRIPTION |

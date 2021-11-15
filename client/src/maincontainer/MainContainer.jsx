@@ -1,5 +1,6 @@
 import Landing from '../screens/landing/Landing';
 import About from '../screens/about/About';
+import Portfolio from '../screens/projects/Portfolio';
 import Project1Title from '../screens/projects/Project1Title';
 import Project1 from '../screens/projects/Project1';
 import Project2Title from '../screens/projects/Project2Title';
@@ -15,6 +16,7 @@ export default function MainContainer() {
     <div className='main-container'>
       <Landing />
       <About />
+      <Portfolio />
       <Project1Title />
       <Project1 />
       <Project2Title />

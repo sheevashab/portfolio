@@ -56,7 +56,7 @@ export default function Navbar() {
                 About Me
               </MenuItem>
             </NavHashLink>
-            <NavHashLink className='nav-link' smooth to='#project-one-title'>
+            <NavHashLink className='nav-link' smooth to='#portfolio'>
               <MenuItem key='nav-link-projects' onClick={handleClose}>
                 Portfolio
               </MenuItem>

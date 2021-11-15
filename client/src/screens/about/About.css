@@ -29,7 +29,7 @@
   color: #E8CBB1;
   font-size: 32px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin: 20px 0px;
   text-align: center;
 }
 
@@ -37,7 +37,7 @@
   color: #EDF2F3;
   font-size: 18px;
   line-height: 1.4;
-  margin: 10px;
+  margin: 0px 20px 20px 20px;
   text-align: center;
   text-justify: auto;
 }

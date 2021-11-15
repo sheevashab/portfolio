@@ -3,19 +3,19 @@ import DesignDelights from '../../assets/designdelights.png'
 
 export default function Project4() {
   return (
-    <section id='project' className='project-page'>
+    <section id='project-four' className='project-page'>
       <div className='project-container'>
-        <img src={DesignDelights}
-          className='project-screenshot'
-          alt='landing page for Design Delights app'
-          href='https://brave-williams-1296d2.netlify.app/'
-        />
         <div className='project-description-header'>
           | DESCRIPTION |
         </div>
         <div className='project-description-text'>
           The assignment was to create a React app that makes API calls to Airtable. Design Delights is an interactive design blog where users can add and delete content.
         </div>
+        <img src={DesignDelights}
+          className='project-screenshot'
+          alt='landing page for Design Delights app'
+          onClick={() => window.open('https://brave-williams-1296d2.netlify.app/', '_blank')}
+        />
         <div className='project-resources-header'>
           | TECH STACK |
         </div>
@@ -24,7 +24,7 @@ export default function Project4() {
         </div>
       </div>
       <div className='project-scroll-text'>
-        KEEP CALM AND SCROLL ON
+        | KEEP CALM AND SCROLL ON |
       </div>
     </section>
   )
