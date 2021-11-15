@@ -20,7 +20,21 @@
   color: #EDF2F3;
   display: flex;
   flex-direction: column;
-  font-size: 18px;
   height: 60vh;
   justify-content: space-evenly;
+}
+
+.contact-link {
+  color: #EDF2F3;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.contact-scroll-text {
+  color: #E8CBB1;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
 }

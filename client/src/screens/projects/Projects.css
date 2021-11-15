@@ -16,6 +16,12 @@
 
 .project-screenshot {
   border-radius: 30px;
+  border: #AFD8F2 solid 4px;
+  width: 200px;
+}
+
+.project-screenshot:hover {
+  border-radius: 30px;
   border: #EDF2F3 solid 4px;
   width: 200px;
 }
