@@ -36,6 +36,7 @@
 .about-text {
   color: #EDF2F3;
   font-size: 16px;
+  font-weight: 300;
   line-height: 1.4;
   margin: 0px 20px 20px 20px;
   text-align: center;
@@ -61,6 +62,7 @@
   .about-text {
     font-size: 18px;
     line-height: 1.6;
+    margin: 0px 30px 30px 30px;
   }
 
   .about-scroll-text {
@@ -78,7 +80,8 @@
   
     .about-text {
       font-size: 22px;
-      line-height: 1.75;
+      line-height: 2;
+      margin: 0px 40px 40px 40px;
     }
 
     .about-scroll-text {
