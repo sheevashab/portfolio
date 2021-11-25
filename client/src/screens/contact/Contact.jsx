@@ -47,7 +47,7 @@ export default function Contact() {
         <span className="parent-span">
           <IconButton
             aria-label='sheeva-shabahang-resume'
-            onClick={() => window.open('https://res.cloudinary.com/dyyjvyqtn/image/upload/v1636938339/SheevaShabahang_ResumeLink_xnw7uo.jpg')}
+            onClick={() => window.open('https://res.cloudinary.com/dyyjvyqtn/image/upload/v1637621075/SheevaShabahang_Resume_drydnb.jpg')}
             sx={{ color: '#EDF2F3', }}>
             <AttachFileRoundedIcon fontSize="large" />
             <h5 className='contact-link'>resume</h5>

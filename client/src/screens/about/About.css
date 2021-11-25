@@ -20,6 +20,7 @@
 .about-container {
   align-items: center;
   background-color: #1f3541aa;
+  border-radius: 25px;
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -35,9 +36,10 @@
 
 .about-text {
   color: #EDF2F3;
+  font-family: 'Raleway', sans-serif;;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 0px 20px 20px 20px;
   text-align: center;
   text-justify: auto;
@@ -61,7 +63,7 @@
 
   .about-text {
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.75;
     margin: 0px 30px 30px 30px;
   }
 

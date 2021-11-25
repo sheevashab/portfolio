@@ -1,41 +1,84 @@
 .project-page {
   align-items: center;
-  background-color: #1F3541;
+  background-color: #EDF2F3;
   display: flex;
   flex-direction: column;
   height: 100vh;
   position: relative;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.project-background {
+  align-items: center;
+  background-color: #1F3541;
+  border-radius: 75px;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: space-evenly;
+  width: 90vw;
+}
+
+.project-title-banner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.parent-span svg {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.parent-span:hover svg {
+  fill: #E8CBB1 !important;
+}
+
+.project-title-header {
+  color: #E8CBB1;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.project-title-links {
+  color: #EDF2F3;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-title-links:hover {
+  color: #E8CBB1;
 }
 
 .project-container {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .project-screenshot {
   border-radius: 30px;
   border: #AFD8F2 solid 4px;
-  width: 200px;
+  max-height: 30vh;
 }
 
 .project-screenshot:hover {
   border-radius: 30px;
-  border: #EDF2F3 solid 8px;
-  width: 200px;
+  border: #1F3541 solid 1px;
+  max-height: 30vh;
 }
 
 .project-description-header, .project-resources-header{
   color: #E8CBB1;
-  font-size: 18px;
-  margin-top: 15px;
+  font-size: 16px;
 }
 
 .project-description-text, .project-resources-text {
   color: #EDF2F3;
-  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
   margin: 10px 20px;
 }
 
@@ -48,49 +91,43 @@
 }
 
 @media only screen and (min-width: 750px) {
-  .project-page {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .project-container {
-    align-items: flex-end;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-.project-description-container {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  justify-content: left;
-}
-
-  .project-screenshot-container {
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    width: 30vw;
+  .project-title-header {
+    font-size: 28px;
   }
 
-  .project-techstack-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    text-align: left;
+.project-screenshot {
+    border-radius: 20px;
+    border: #AFD8F2 solid 5px;
+    max-height: 40vh;
   }
-  
+
+  .project-screenshot:hover {
+    border-radius: 20px;
+    border: #1F3541 solid 1px;
+    max-height: 40vh;
+  }
+ 
   .project-description-header, .project-resources-header{
-    width: 23vw;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
   }
   
-  .project-description-text, .project-resources-text {
+  .project-description-text {
+    font-size: 16px;
     line-height: 1.5;
-    margin: 10px 20px;
-    width: 23vw;
+    margin: 20px 0;
+    text-align: left;
+    width: 75vw;
   }
   
+  .project-resources-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+    width: 50vw;
+  }
+
   .project-scroll-text {
     font-size: 14px;
   }
@@ -98,19 +135,57 @@
 
 
 @media only screen and (min-width: 1020px) {
+  .project-background {
+    border-radius: 100px;
+    height: 90vh;
+    width: 95vw;
+  }
+
+  .project-title-header {
+    font-size: 32px;
+  }
+
+  .project-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85vw;
+  }
+  
+  .project-description-container, .project-techstack-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+  }
+  
+  .project-screenshot {
+    max-height: 60vh;
+  }
+
+  .project-screenshot:hover {
+    max-height: 60vh;
+  }
+
   .project-description-header, .project-resources-header{
-    font-size: 22px;
-    margin-bottom: 18px;
-    margin-top: 0px;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 15px;
   }
   
   .project-description-text, .project-resources-text {
-    font-size: 16px;
+    align-self: center;
+    font-size: 18px;
     line-height: 1.75;
-    width: 23vw;
+    justify-content: center;
+    text-align: left;
+    width: 25vw;
   }
   
   .project-scroll-text {
     font-size: 16px;
   }
 }
+
+
