@@ -8,6 +8,7 @@
 
 
 .about-background-image {
+  align-items: center;
   background: no-repeat;
   background-image: url(https://res.cloudinary.com/dyyjvyqtn/image/upload/v1636829196/MachuPicchu-Travel_y8u6k3.jpg);
   background-size: cover;
@@ -47,6 +48,7 @@
 
 .about-scroll-text {
   bottom: 0;
+  background-color: #1f3541aa;
   color: #E8CBB1;
   font-size: 12px;
   position: absolute;
