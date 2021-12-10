@@ -53,6 +53,7 @@
     .contact-links {
       display: flex;
       flex-direction: row;
+      align-items: baseline;
     }
     
     .contact-link {

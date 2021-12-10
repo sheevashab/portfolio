@@ -13,7 +13,13 @@ nav {
   display: flex;
   font-size: 16px;
 }
-/* 
-.nav-link{
-  background-color: #1F3541;
-} */
+
+/* .nav-link {
+  color: #5289B5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color:#AFD8F2;
+}  */
